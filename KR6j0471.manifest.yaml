@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR6j0471/v1
+canonical_location: https://kanripo.org/bkk/KR6j0471/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說出生一切如來法眼遍照大力明王經
+  identifiers:
+    alt_id:
+    - T21n1243
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1243.xml
+    old_id: T21n1243
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0471_000.yaml, hash: 'sha256:2a0149105609a7fd1dc859ebd4882b6a3e1e5a4a9afef99c8cec1f1a920c557b'}
+  - {seq: 1, filename: KR6j0471_001.yaml, hash: 'sha256:b0b7b41840cd4b3a083ede3197b708005c475fa5be632505634024fc174a6367'}
+  - {seq: 2, filename: KR6j0471_002.yaml, hash: 'sha256:0ee3d054faeaba9a8e359a994e72b9d241bcbfc27ec1664c40670aea38264abc'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0471_001.markers.yaml, hash: 'sha256:e5722fabcc2027a21530889bc20e17d1f1edf0479bbb2117946a26e9ed4e424e'}
+  - {seq: 2, role: markers, filename: assets/KR6j0471_002.markers.yaml, hash: 'sha256:87ee167aa570dd532c5b1bf58fca876d03f374aed3361aa1d172680d45ed56dd'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0471_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5604
+  label: '佛說出生一切如來法眼遍照大
+
+    力明王經卷上'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0471_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 3260
+  label: '佛說出生一切如來法眼遍照大
+
+    力明王經卷下'
+  type: juan
+  level: 1
+hash: sha256:c907d7357aa7c976f8826c01b654f61e195b6acbc7e33768f2f1ff0806a9f394
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0471/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說出生一切如來法眼遍照大力明王經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1243.xml
+    old_id: T21n1243
+hash: sha256:2a0149105609a7fd1dc859ebd4882b6a3e1e5a4a9afef99c8cec1f1a920c557b
